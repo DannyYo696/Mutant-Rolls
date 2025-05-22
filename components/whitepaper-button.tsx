@@ -7,8 +7,9 @@ interface WhitepaperButtonProps {
 export default function WhitepaperButton({ className = "" }: WhitepaperButtonProps) {
   return (
     <a
-      href="https://raw.githubusercontent.com/DannyYo696/svillage/23a9011674cf2a6bb667591e470c4283096cf3d8/mutant%20rolls.pdf"
-      download="MutantRolls-Whitepaper.pdf"
+      href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/DannyYo696/svillage/23a9011674cf2a6bb667591e470c4283096cf3d8/mutant%20rolls.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
       className={`inline-block ${className}`}
     >
       <Image
