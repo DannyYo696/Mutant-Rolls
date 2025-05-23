@@ -61,7 +61,7 @@ export default function Footer() {
               aria-label="Follow us on TikTok"
             >
               <Image
-                src="https://img.icons8.com/ios/50/tiktok--v1.png"
+                src=""
                 alt="TikTok"
                 width={28}
                 height={28}
